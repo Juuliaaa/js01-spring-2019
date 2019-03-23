@@ -1,0 +1,46 @@
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+</head>
+
+<body>
+<p> Name: </p>
+<input type = "text" id = "name">
+<button> submit </button>
+<h3>
+<ul id = "postList">
+  </ul>
+</h3>
+
+
+<script>
+
+$('button').click(() => {
+  var list = [
+  "1. I'm Polish ",
+  "2. Polish is my first language ",
+  "3. I'm an only child ",
+  "4. I'm 13 ",
+  "5. I'm in the eigth grade ",
+  "6. I go to Institute for Collaborative Education "
+  ];
+  const name = $('#name').val();
+  const nameOne = "julia";
+  if (name == nameOne) {
+  for (var i = 0; i < list.length; i++){
+      $("#postList").append("<li>" + list[i] + "</li>");
+    };
+}
+else {
+list = " ";
+};
+});
+
+
+
+
+</script>
+
+</body>
+
+</html>

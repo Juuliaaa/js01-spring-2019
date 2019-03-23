@@ -1,0 +1,50 @@
+<html>
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+</head>
+
+<body>
+First Number: <input type = "text" id = "numberone"> <br>
+Second Number: <input type = "text" id = "numbertwo"> <br>
+<!-- <select>
+<option value = "subtraction"> Subtract </option>
+<option value = "addition"> Add </option>
+<option value = "multiplication"> Multiply </option>
+</select> -->
+<button id = "subtraction"> Calculate: subtraction </button> <br>
+<button id = "addition"> Calculate: addition </button> <br>
+<button id = "multiplication"> Calculate: multiplication </button> <br>
+<p> </p>
+
+<script>
+// $('button').click(() => {
+// if (
+//   $('addition').click(addition);
+// )
+// });
+const multiplication = () =>{
+  const firstnumber = $('#numberone').val();
+  const secondnumber = $('#numbertwo').val();
+  const operationthree = parseInt(firstnumber) * parseInt(secondnumber);
+};
+const subtraction = () => {
+  const firstnumber = $('#numberone').val();
+  const secondnumber = $('#numbertwo').val();
+  const operationtwo = parseInt(firstnumber) - parseInt(secondnumber);
+  console.log(operationtwo);
+};
+
+const addition = () =>{
+  const firstnumber = $('#numberone').val();
+  const secondnumber = $('#numbertwo').val();
+  const operationone = parseInt(firstnumber) + parseInt(secondnumber);
+  console.log(operationone);
+};
+$('#addition').click(addition);
+$('#subraction').click(subtraction);
+$('#multiplication').click(multiplication);
+</script>
+
+</body>
+</html>

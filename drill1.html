@@ -1,0 +1,31 @@
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+</head>
+
+<body>
+
+How was your day? <input type = "text" id = "urDay">
+<h3> Choices Being: Bad, Good, Okay</h3>
+<button> Submit </button>
+
+
+
+<script>
+
+const urDay = $('urDay').val();
+const myDay = "Okay";
+
+$('button').click(() => {
+    if (urDay == myDay){
+        console.log(urDay);
+};
+})
+
+
+
+</script>
+
+</body>
+
+</html>
