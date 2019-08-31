@@ -1,0 +1,75 @@
+<html>
+<head>
+  <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <link rel="stylesheet" href="summerproject.css">
+<link href="https://fonts.googleapis.com/css?family=Chilanka&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Noto+Serif&display=swap" rel="stylesheet"></head>
+
+
+<body>
+<h3 id = "different">
+  enter name:
+</h3>
+
+  <input type = "text"> <br>
+
+  <button id = "click">
+     click me
+   </button>
+
+<h3> </h3>
+
+ <h3>
+  You keep walking along the boardwalk admiring the ocean from a distance... After a while <br>
+  you hear someone calling your name <span> </span> ! "Oh my God <span> </span> I haven't seen you in FOREVER. <br>
+  How are you? Oh my God we totally have to catch up. Come with me let's grab some lunch and hang a bit!"
+  This girl who you vaguely remember is talking a mile a minute. You kind of dont want to 'catch up' with
+  this strangely annoying girl but you also don't want to hurt her feelings <br>
+</h3>
+
+<button id = "lunch">
+  <h3>
+    Do you agree to lunch?
+  </h3>
+</button>
+
+<h3>
+
+</h3>
+
+<button id = "decline">
+  <h3>
+    Do you politely decline?
+  </h3>
+</button>
+
+
+
+<script>
+alert ("You chose to keep walking on the boardwalk")
+var value;
+$("button").click (()=> {
+
+  $("span").text($("input").val());
+});
+
+
+$('#lunch').click (() => {
+  location.href = "StepFivepg7.html"
+});
+
+$('#decline').click (() => {
+  location.href = "StepSixpg8.html"
+});
+
+</script>
+
+
+</body>
+
+
+
+</html>
