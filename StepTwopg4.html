@@ -1,0 +1,75 @@
+<html>
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <link rel="stylesheet" href="summerproject.css">
+  <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+<h1>
+  enter name:
+</h1>
+
+  <input type = "text"> <br>
+
+  <button> click me </button>
+
+
+
+<!-- why is the name not showing up in the same line as the rest of the code? -->
+ <h3>
+  You keep walking along the boardwalk admiring the ocean from a distance... After a while
+  you hear someone calling your name <p><span> </span> </p>! "Oh my God <p> <span> </span> </p> I haven't seen you in FOREVER.
+  How are you? Oh my God we totally have to catch up. Come with me let's grab some lunch and hang a bit!"
+  This girl who you vaguely remember is talking a mile a minute. You kind of dont want to 'catch up' with
+  this strangely annoying girl but you also don't want to hurt her feelings
+</h3>
+
+<h1>
+  Do you...
+</h1>
+<button id = "lunch">
+  <h3>
+    Agree to lunch
+  </h3>
+</button>
+
+<h1>
+  or...
+</h1>
+
+<button id = "decline">
+  <h3>
+    Politely decline
+  </h3>
+</button>
+
+
+
+<script>
+alert ("You chose to keep walking on the boardwalk")
+var value;
+$("button").click (()=> {
+
+  $("span").text($("input").val());
+});
+
+
+$('#lunch').click (() => {
+  location.href = "StepFivepg7.html"
+});
+
+$('#decline').click (() => {
+  location.href = "StepSixpg8.html"
+});
+
+</script>
+
+
+</body>
+
+
+
+</html>
