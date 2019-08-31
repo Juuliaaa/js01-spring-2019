@@ -1,15 +1,45 @@
 <html>
 
 <head>
+  <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
   <link rel="stylesheet" href="summerproject.css">
-  <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Chilanka&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Noto+Serif&display=swap" rel="stylesheet">
+  <style>
+
+  #cf {
+    position:relative;
+    height:281px;
+    width:450px;
+    margin:0 auto;
+  }
+
+  #cf img {
+    position:absolute;
+    left:0;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+  }
+
+  #cf img.top:hover {
+    opacity:0;
+  }
+  </style>
+
 </head>
 
 
 <body>
-  <!-- add pics/vids -->
+  <div id="cf">
+    <img class="bottom" src="https://is4-ssl.mzstatic.com/image/thumb/Purple62/v4/c6/46/0e/c6460ef1-781b-d102-8e25-80d1a0048962/source/256x256bb.jpg"/>
+    <img class="top" src="https://pbs.twimg.com/profile_images/688081556494266369/AcSZOIF6_400x400.jpg" />
+  </div>
+
 <h3>
   Matthew starts in front of you with his "not" mermaid tail thing, you fail to
   catch up with him since you don't have a tail. He looks back at you and laughs
@@ -39,7 +69,9 @@
 </h3>
 
 <button id = "leave">
+  <h3>
   Do you tell Matthew that you need to go home?
+</h3>
 </button>
 
 <h1>
@@ -47,7 +79,9 @@
 </h1>
 
 <button id = "stay">
+  <h3>
   Do you forget about home and stay?
+</h3>
 </button>
 
 <script>

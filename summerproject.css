@@ -1,0 +1,60 @@
+h1 {
+    font-family: 'Chilanka', cursive;
+}
+#different{
+  text-align: left;
+  font-family: 'Julius Sans One', sans-serif;
+
+}
+#click{
+  margin-left: auto;
+}
+h3 {
+  font-family: 'Noto Serif', serif;
+}
+body {
+  background-color: #AED6F1 ;
+
+}
+
+button {
+    margin-left: 400px;
+    padding: 5px;
+    background-color:
+
+}
+div{
+  height:100px;
+  width:10000px;
+}
+
+#storyOne {
+    margin-right: 300px;
+    padding: 5px;
+    position:relative;
+    left:50px;
+    top:50px;
+}
+
+#lunch {
+    margin-right: 300px;
+    padding: 5px;
+    position:relative;
+    left:50px;
+    top:70px;
+}
+#decline{
+  margin-right: 300px;
+  padding: 5px;
+  position:relative;
+  left:50px;
+  top:70px;
+}
+
+#returnOne {
+    margin-right: 200px;
+    padding: 5px;
+    position:relative;
+    left:50px;
+    top:90px;
+}
